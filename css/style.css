@@ -15,10 +15,7 @@ nav {
 #container-1 {
     display: flex;
 }
-@font-face {
-  font-family: "tFont";
-  src: url(/Fonts/__MACOSX/San%20Francisco/woff/._san_francisco-webfont.woff);
-}
+
 
 #logo {
     padding: 0 2px;
@@ -26,7 +23,8 @@ nav {
     border: 2px solid blue;
     font-size: 2rem;
     text-transform: uppercase;
-    font-family: "tFont";
+    font-family: 'Alegreya Sans',
+        sans-serif;
     letter-spacing: 4px;
 }
 
@@ -68,4 +66,3 @@ nav {
     border-radius: 10px;
     box-shadow: none;
 }
-
