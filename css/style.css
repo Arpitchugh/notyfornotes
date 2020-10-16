@@ -29,3 +29,13 @@
 #nav-elements>ul>li {
     margin: 2px 2px;
 }
+
+#search>label {
+    margin: 2px 2px;
+}
+
+#search-bar {
+    margin: 2px 2px;
+    border-radius: 10px;
+    box-shadow: none;
+}
