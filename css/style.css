@@ -3,7 +3,19 @@
     margin: 0;
 }
 
+#container-1 {
+    display: flex;
+}
+
 .nav {
     margin: 10px;
+    display: flex;
+}
+
+#nav-elements {
+    display: flex;
+}
+
+#nav-elements>ul {
     display: flex;
 }
