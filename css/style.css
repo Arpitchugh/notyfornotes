@@ -52,10 +52,12 @@ nav {
 
 #search {
     position: absolute;
-    top: 6px;
-    right: 2px;
+    top: 8px;
+    right: 5px;
     /* border: 2px solid yellow; */
-    font-size: 1.8rem;
+    font-size: 1.6em;
+    font-family: 'Commissioner',
+        sans-serif;
 }
 
 #search>label {
@@ -64,7 +66,7 @@ nav {
 
 #search-bar {
     margin: 2px 2px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: none;
     position: relative;
     bottom: 4px;
