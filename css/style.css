@@ -18,4 +18,5 @@
 
 #nav-elements>ul {
     display: flex;
+    list-style: none;
 }
