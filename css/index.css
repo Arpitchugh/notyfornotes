@@ -99,4 +99,20 @@ nav {
     font-family: 'Noto Sans JP',
         sans-serif;
     padding: 2px 2px;
+    bottom: 10px;
+}
+
+.mainhead {
+    color: #4b5c6d;
+}
+
+.min-img {
+    width: 7rem;
+    height: 10rem;
+}
+
+.socialmediaicons {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
 }
