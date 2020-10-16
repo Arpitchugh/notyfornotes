@@ -1,8 +1,9 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 .nav {
     margin: 10px;
+    display: flex;
 }
