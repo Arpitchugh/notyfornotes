@@ -51,10 +51,12 @@ nav {
 }
 
 #search {
+    margin: 2px 2px;
     position: absolute;
     top: 5px;
     right: 2px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    font-size: 1.8rem;
 }
 
 #search>label {
@@ -65,4 +67,6 @@ nav {
     margin: 2px 2px;
     border-radius: 10px;
     box-shadow: none;
+    position: relative;
+    bottom: 3px;
 }
