@@ -23,7 +23,8 @@ nav {
     border: 2px solid blue;
     font-size: 2rem;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    ;
     letter-spacing: 4px;
 }
 
@@ -51,9 +52,12 @@ nav {
 
 #search {
     position: absolute;
-    top: 5px;
-    right: 2px;
-    border: 2px solid yellow;
+    top: 8px;
+    right: 5px;
+    /* border: 2px solid yellow; */
+    font-size: 1.6em;
+    font-family: 'Commissioner',
+        sans-serif;
 }
 
 #search>label {
@@ -62,6 +66,8 @@ nav {
 
 #search-bar {
     margin: 2px 2px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: none;
+    position: relative;
+    bottom: 4px;
 }
