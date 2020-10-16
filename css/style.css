@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+body {
+    color: white;
+}
+
 nav {
     border: 2px solid black;
+    background-color: #343A40;
 }
 
 #container-1 {
@@ -13,8 +18,19 @@ nav {
 
 
 #logo {
+    padding: 0 2px;
     margin: 2px 2px;
     border: 2px solid blue;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans',
+        sans-serif;
+    letter-spacing: 4px;
+}
+
+#logo>a {
+    text-decoration: none;
+    color: white;
 }
 
 #nav-elements {
