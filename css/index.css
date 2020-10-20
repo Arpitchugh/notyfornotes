@@ -154,7 +154,7 @@ nav {
 
 .container-2::before {
     content: "";
-    background-image: url("/Images/");
+    background-image: url("/Images/background_images/Main_page\ .jpg");
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -183,4 +183,3 @@ nav {
     transform: translateY(-50%);
     font-family: 'Open Sans', sans-serif;
 }
-
