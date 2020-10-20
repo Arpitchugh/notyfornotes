@@ -148,7 +148,7 @@ nav {
 
 .container-2 {
     text-align: center;
-    height: 500px;
+    height: 614px;
     width: 100%;
 }
 
@@ -182,4 +182,134 @@ nav {
     top: 50%;
     transform: translateY(-50%);
     font-family: 'Open Sans', sans-serif;
+}
+
+/* Brach section */
+
+#branch-section {
+    background-color: #d4d7e8;
+}
+
+#branch-section-heading {
+    color: #372c6b;
+    font-size: 3.8rem;
+    font-family: 'Open Sans',
+        sans-serif;
+    text-align: center;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-container {
+    height: 300px;
+    width: 300px;
+    margin: 31px 95px;
+    padding: 8px 4px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #ead5d5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brach-img {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .5s ease;
+    opacity: 0;
+    background-color: #ff771de6;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-left {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.img-container:hover .overlay-left {
+    width: 100%;
+}
+
+.overlay-right {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    left: auto;
+}
+
+.img-container:hover .overlay-right {
+    width: 100%;
+}
+
+.overlay-top {
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.img-container:hover .overlay-top {
+    height: 100%;
+}
+
+.overlay-bottom {
+    height: 0;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.img-container:hover .overlay-bottom {
+    height: 100%;
+}
+
+.overlay-cross {
+    height: 0;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.img-container:hover .overlay-cross {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
