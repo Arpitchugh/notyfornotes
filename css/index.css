@@ -154,7 +154,7 @@ nav {
 
 .container-2::before {
     content: "";
-    background-image: url("../Images/Main%20page%20.jpg");
+    background-image: url("/Images/");
     background-size: cover;
     background-position: center;
     position: absolute;
