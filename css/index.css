@@ -133,18 +133,13 @@ nav {
 }
 
 .welcome-image {
-    height: 100vh;
+    height: 96vh;
     width: 100%;
     position: absolute;
     right: 0px;
     opacity: 1;
 }
 
-.headings {
-    background-color: #ffeeee;
-    height: 95vh;
-    width: 45%;
-}
 
 #welcome-section-heading {
     color: #372c6b;
@@ -157,6 +152,7 @@ nav {
     display: inline-block;
     font-weight: 1000;
     letter-spacing: 10px;
+    text-align: center;
 }
 
 #welcome-section-heading-slogan {
@@ -170,6 +166,9 @@ nav {
     font-family: 'Staatliches', cursive;
     display: inline-block;
     letter-spacing: 5px;
+    text-align: center;
 }
+
+
 
 /* Brach section */
