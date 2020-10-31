@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -133,7 +134,7 @@ nav {
 }
 
 .welcome-image {
-    height: 96vh;
+    height: 88vh;
     width: 100%;
     position: absolute;
     right: 0px;
@@ -159,10 +160,9 @@ nav {
     color: #372c6b;
     font-size: 1.6rem;
     position: absolute;
-    top: 53%;
-    left: 38%;
+    top: 55%;
+    left: 34%;
     transform: translateY(-50%, -50%);
-    
     font-family: 'Staatliches', cursive;
     display: inline-block;
     letter-spacing: 5px;
@@ -172,3 +172,50 @@ nav {
 
 
 /* Brach section */
+#branch-heading{
+    color: #372c6b;
+    text-align: left;
+    font-size: 60px;
+    font-family: "Noto Sans JP",
+}
+
+/* Grid section */
+.branch-sub {
+    display: inline-flex;
+    grid-gap: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #372c6b;
+}
+
+.branch-sub>* {
+    padding: 9px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: white;
+}
+
+.Engineer {
+    position: relative;
+    color: #372c6b;
+    max-width: 50%;
+} 
+.cse{
+    position: relative;
+    height: 200px;
+    width: 180px;
+}
+.main-text{
+    font-size: 25px;
+    position: relative;
+    color: #473891;
+}
+a{
+    text-decoration: none;
+}
+.sub-text{
+    text-decoration: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 4px;
+}
