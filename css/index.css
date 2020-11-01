@@ -213,7 +213,7 @@ nav {
     padding-left: 5px;
 }
 .Engineer:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .main-text {
@@ -295,74 +295,6 @@ a {
     padding-right: 8px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Grid section */
-/*
-.branch-sub {
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #2c292f;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    gap: 8px 8px;
-}
-
-.branch-sub>* {
-    padding: 9px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: white;
-}
-
-.Engineer {
-    position: relative;
-    color: #e0ac1c;
-    max-width: 100%;
-}
-
-.cse {
-    position: relative;
-    height: 200px;
-    width: 180px;
-}
-
-.main-text {
-    font-size: 25px;
-    position: relative;
-    color: #2c292f;
-}
-
-a {
-    text-decoration: none;
-} */
-
-/* .sub-text {
-    text-decoration: none;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 4px;
-} */
-
-
-
-
 
 
 
@@ -475,7 +407,7 @@ footer {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
-    margin: 0;
+    margin: 7px;
 }
 
 .footer-distributed .footer-center p span {
