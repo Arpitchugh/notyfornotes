@@ -23,7 +23,6 @@ nav {
 
 #container-1 {
     display: flex;
-    height: 85vh;
 }
 
 #logo {
@@ -57,6 +56,7 @@ nav {
     left: 130%;
     top: 0px;
     height: 70px;
+    text-align: center;
 }
 
 #nav-elements>ul>li {
@@ -70,9 +70,8 @@ nav {
     height: 29px;
 }
 
-#nav-elements>ul>li:hover {
-    color: #2c292f;
-
+#nav-elements>ul>li>a:hover {
+    color: #e0ac1c;
 }
 
 #nav-elements>ul>li>a {
@@ -129,6 +128,11 @@ nav {
     padding: none;
 }
 
+.main-head {
+    background-color: #e0ac1c;
+
+}
+
 #branch-heading {
     color: #e0ac1c;
     text-align: left;
@@ -142,26 +146,29 @@ nav {
     padding-left: 40px;
     padding-right: 40px;
     background-color: #2c292f;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* To create more grid in columns add 1fr*/
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* To create more grid in rows add 1fr*/
-    gap: 8px 8px;
+    display: inline-flex;
 }
 
 .branch-sub>* {
-    padding: 9px;
+    padding: 5px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
     border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+
 }
 
 .Engineer {
     position: relative;
     color: #e0ac1c;
     max-width: 100%;
+    padding-bottom: 5px;
+    background-color: #e0ac1c;
+    border-radius: 3px;
+
 }
 
 .main-text {
@@ -173,6 +180,74 @@ nav {
 a {
     text-decoration: none;
 }
+
+.heading {
+    color: white;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.cse-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+.it-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+.ece-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #2c292f;
+font: 16px;
+}
+
+.mechanical-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    width: 100%;
+    padding-left: 5px;
+    background-color: white;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+
+
+
+
 
 
 /*                     Footer                    */
@@ -188,6 +263,9 @@ footer {
     }
 }
 
+h2>span {
+    color: #e0ac1c
+}
 
 .footer-distributed {
     background-color: #2c292f;

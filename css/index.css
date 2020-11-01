@@ -186,7 +186,125 @@ nav {
     font-family: "Noto Sans JP",
 }
 
+.branch-sub {
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #2c292f;
+    display: inline-flex;
+}
+
+.branch-sub>* {
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.Engineer {
+    position: relative;
+    color: #e0ac1c;
+    max-width: 100%;
+    padding-bottom: 5px;
+    background-color: #e0ac1c;
+    border-radius: 3px;
+
+}
+
+.main-text {
+    font-size: 25px;
+    position: relative;
+    color: #2c292f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    color: white;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.cse-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+.it-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+.ece-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    background-color: white;
+    padding-left: 5px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #2c292f;
+    font: 16px;
+}
+
+.mechanical-head {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    /* To create more grid in columns add 1fr*/
+    grid-template-rows: 1fr 1fr 1fr;
+    /* To create more grid in rows add 1fr*/
+    gap: 10px;
+    width: 100%;
+    padding-left: 5px;
+    background-color: white;
+    margin-top: 5px;
+    background-color: #2c292f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Grid section */
+/* 
 .branch-sub {
     padding: 5px;
     padding-left: 40px;
@@ -194,9 +312,8 @@ nav {
     background-color: #2c292f;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* To create more grid in columns add 1fr*/
     grid-template-rows: 1fr 1fr;
-    /* To create more grid in rows add 1fr*/
+    
     gap: 8px 8px;
 }
 
@@ -227,7 +344,7 @@ nav {
 
 a {
     text-decoration: none;
-}
+} */
 
 /* .sub-text {
     text-decoration: none;
@@ -235,6 +352,18 @@ a {
     padding-left: 0;
     padding-bottom: 4px;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* The footer is fixed to the bottom of the page */
