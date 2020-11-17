@@ -9,5 +9,14 @@
 #welcome-section-heading-slogan {
     left: 27.5%;
 }
+.branch-sub>* {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 
