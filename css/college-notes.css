@@ -19,6 +19,7 @@ nav {
     height: 80px;
     z-index: 2;
     background-color: #2c292f;
+    top: 1;
 }
 
 #container-1 {
@@ -29,7 +30,7 @@ nav {
 #logo {
     padding: 0 2px;
     margin: 2px 2px;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     font: bold 30px sans-serif;
     letter-spacing: 4px;
@@ -54,7 +55,7 @@ nav {
     margin: 2px 2px;
     padding: 0 2px;
     position: relative;
-    left: 215%;
+    left: 350%;
     top: 0px;
     height: 70px;
 }
@@ -66,12 +67,13 @@ nav {
     border-radius: 4px;
     line-height: 1.5;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 10px;
     height: 29px;
 }
 
 #nav-elements>ul>li>a:hover {
     color: #e0ac1c;
+
 }
 
 #nav-elements>ul>li>a {
@@ -250,8 +252,6 @@ a {
     margin-top: 10px;
     background-color: #2c292f;
     padding-right: 5px;
-
-
 }
 
 
@@ -265,14 +265,14 @@ a {
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 0; 
 }
 
 @media (max-height:800px) {
     footer {
         position: static;
     }
-}
+} 
 
 h2>span {
     color: #e0ac1c

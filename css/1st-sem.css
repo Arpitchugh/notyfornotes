@@ -16,8 +16,9 @@ body {
     font-weight: 400;
 }
 
-/*                                            Navbar                           */
 
+
+/*                        Navbar                 */
 nav {
     height: 80px;
     z-index: 2;
@@ -32,7 +33,7 @@ nav {
 #logo {
     padding: 0 2px;
     margin: 2px 2px;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     font: bold 30px sans-serif;
     letter-spacing: 4px;
@@ -57,7 +58,7 @@ nav {
     margin: 2px 2px;
     padding: 0 2px;
     position: relative;
-    left: 260%;
+    left: 420%;
     top: 0px;
     height: 70px;
 }
@@ -69,12 +70,13 @@ nav {
     border-radius: 4px;
     line-height: 1.5;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 10px;
     height: 29px;
 }
 
 #nav-elements>ul>li>a:hover {
     color: #e0ac1c;
+
 }
 
 #nav-elements>ul>li>a {
