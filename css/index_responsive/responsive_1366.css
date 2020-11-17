@@ -1,0 +1,10 @@
+#nav-elements>ul>li {
+    margin: 7px 5px;
+    padding: 14px 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    border-radius: 4px;
+    line-height: 1.5;
+    font-size: 23px;
+    font-weight: 400;
+    height: 29px;
+}
