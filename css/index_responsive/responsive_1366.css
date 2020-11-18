@@ -3,12 +3,13 @@
 }
 
 #nav-elements>ul {
-    left: 235%;
+    left: 236%;
 }
 
 #welcome-section-heading-slogan {
     left: 27.5%;
 }
+
 .branch-sub>* {
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,4 +20,39 @@
     margin-left: 10px;
 }
 
+.container-2 {
+    height: 88vh;
+}
 
+.welcome-image-section {
+    height: 88vh
+}
+
+.welcome-image {
+    height: 88vh
+}
+
+.branch-sub {
+    padding: 35px 20px;
+}
+
+.branch-sub>* {
+    padding: 0 0 0 0;
+}
+
+.footer-distributed .footer-company-name {
+    font-size: 14px;
+}
+
+.footer-left{
+    padding: 0% 2.5% 0% 0%;
+}
+.footer-distributed .footer-right {
+    width: 32%;
+}
+.footer-distributed .footer-center{
+    padding: 0px 0px 10px 80px;
+}
+.footer-distributed .footer-company-about{
+    padding: 10px 0px 0px 60px;
+}
