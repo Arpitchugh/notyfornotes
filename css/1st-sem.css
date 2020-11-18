@@ -150,9 +150,9 @@ nav {
     justify-content: center;
     text-align: center;
     background-color: #FFF;
-    padding: 40px 0px;
-    width: 240px;
-    padding-left: 25%;
+    padding: 60px 0px;
+    margin-top: 30px;
+    width: 100%;
 }
 
 h1 {
@@ -283,11 +283,13 @@ h2 {
 
 .footer-distributed .footer-left {
     width: 30%;
+     padding-left: 90px;
+
 }
 
-.footer-distributed h3 {
+.footer-distributed h2 {
     color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
+    font: normal 36px sans-serif;
     margin: 0;
 }
 
@@ -297,7 +299,7 @@ h2 {
     width: 30%;
 }
 
-.footer-distributed h3 span {
+.footer-distributed h2 span {
     color: #e0ac1c;
 }
 
@@ -313,6 +315,12 @@ h2 {
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
+        font-size: 17px;
+
+}
+
+.footer-distributed .footer-links a:hover {
+    color: #e0ac1c;
 }
 
 .footer-distributed .footer-company-name {
@@ -325,7 +333,9 @@ h2 {
 /* Footer Center */
 
 .footer-distributed .footer-center {
-    width: 35%;
+    width: 30%;
+     padding-left: 170px;
+     padding-right: 0px;
 }
 
 
@@ -352,6 +362,8 @@ h2 {
     color: #ffffff;
     vertical-align: middle;
     margin: 7px;
+        font-size: 17px;
+
 }
 
 .footer-distributed .footer-center p span {
@@ -377,7 +389,7 @@ h2 {
 .footer-distributed .footer-company-about {
     line-height: 20px;
     color: #92999f;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
 }
@@ -385,7 +397,7 @@ h2 {
 .footer-distributed .footer-company-about span {
     display: block;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -401,12 +413,9 @@ h2 {
     cursor: pointer;
     background-color: #33383b;
     border-radius: 2px;
-
-    font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
