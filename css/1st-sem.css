@@ -16,8 +16,9 @@ body {
     font-weight: 400;
 }
 
-/*                                            Navbar                           */
 
+
+/*                        Navbar                 */
 nav {
     height: 80px;
     z-index: 2;
@@ -26,14 +27,15 @@ nav {
 
 #container-1 {
     display: flex;
+    height: 12vh;
 }
 
 #logo {
     padding: 0 2px;
     margin: 2px 2px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
-    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+    font: bold 30px sans-serif;
     letter-spacing: 4px;
     position: absolute;
     top: 19px;
@@ -56,10 +58,9 @@ nav {
     margin: 2px 2px;
     padding: 0 2px;
     position: relative;
-    left: 130%;
+    left: 420%;
     top: 0px;
     height: 70px;
-    text-align: center;
 }
 
 #nav-elements>ul>li {
@@ -69,12 +70,13 @@ nav {
     border-radius: 4px;
     line-height: 1.5;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 10px;
     height: 29px;
 }
 
 #nav-elements>ul>li>a:hover {
     color: #e0ac1c;
+
 }
 
 #nav-elements>ul>li>a {
@@ -84,7 +86,7 @@ nav {
     margin: 0;
 }
 
-#search {
+/* #search {
     position: absolute;
     top: 26px;
     right: 2px;
@@ -121,7 +123,7 @@ nav {
     bottom: 3px;
     filter: invert(100%);
 }
-
+ */
 
 
 
@@ -136,7 +138,7 @@ nav {
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     /* To create more grid in columns add 1fr*/
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     /* To create more grid in rows add 1fr*/
     gap: 10px;
 }
@@ -148,9 +150,11 @@ nav {
     justify-content: center;
     text-align: center;
     background-color: #FFF;
-    padding: 40px 0px;
-    width: 240px;
-    padding-left: 25%;
+    padding: 60px 0px;
+    margin-top: 32px;
+    margin-bottom: 31px;
+
+    width: 100%;
 }
 
 h1 {
@@ -256,7 +260,7 @@ h2>span {
     color: #e0ac1c
 }
 
-h2{
+h2 {
     color: #FFF;
 }
 
@@ -281,11 +285,13 @@ h2{
 
 .footer-distributed .footer-left {
     width: 30%;
+     padding-left: 90px;
+
 }
 
-.footer-distributed h3 {
+.footer-distributed h2 {
     color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
+    font: normal 36px sans-serif;
     margin: 0;
 }
 
@@ -295,7 +301,7 @@ h2{
     width: 30%;
 }
 
-.footer-distributed h3 span {
+.footer-distributed h2 span {
     color: #e0ac1c;
 }
 
@@ -311,6 +317,12 @@ h2{
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
+        font-size: 17px;
+
+}
+
+.footer-distributed .footer-links a:hover {
+    color: #e0ac1c;
 }
 
 .footer-distributed .footer-company-name {
@@ -323,7 +335,9 @@ h2{
 /* Footer Center */
 
 .footer-distributed .footer-center {
-    width: 35%;
+    width: 30%;
+     padding-left: 170px;
+     padding-right: 0px;
 }
 
 
@@ -350,6 +364,8 @@ h2{
     color: #ffffff;
     vertical-align: middle;
     margin: 7px;
+        font-size: 17px;
+
 }
 
 .footer-distributed .footer-center p span {
@@ -375,7 +391,7 @@ h2{
 .footer-distributed .footer-company-about {
     line-height: 20px;
     color: #92999f;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
 }
@@ -383,7 +399,7 @@ h2{
 .footer-distributed .footer-company-about span {
     display: block;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -399,12 +415,9 @@ h2{
     cursor: pointer;
     background-color: #33383b;
     border-radius: 2px;
-
-    font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
