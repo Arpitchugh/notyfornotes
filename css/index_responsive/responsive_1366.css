@@ -9,6 +9,10 @@
 #welcome-section-heading-slogan {
     left: 27.5%;
 }
+.branch-sub {
+    padding-left: 62px;
+
+}
 
 .branch-sub>* {
     background-repeat: no-repeat;
