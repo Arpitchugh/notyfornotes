@@ -21,6 +21,8 @@ nav {
 	z-index: 2;
 	background-color: #2c292f;
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 #logo {
