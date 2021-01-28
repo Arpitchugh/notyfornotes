@@ -118,13 +118,6 @@ nav {
 	padding: none;
 }
 
-#branch-heading {
-	color: #e0ac1c;
-	text-align: left;
-	font-size: 60px;
-	font-family: 'Noto Sans JP';
-}
-
 .branch-sub {
 	background-color: #2c292f;
 	display: flex;
