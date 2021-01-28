@@ -20,7 +20,8 @@ nav {
 
 #container-1 {
     display: flex;
-    height: 12vh;
+    height: 24vh;
+    overflow: hidden;
 }
 
 #logo {
